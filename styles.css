@@ -1,0 +1,69 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ffbb00;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffbb00;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Specific Page Styles */
+.home, .produk, .layanan, .pemesanan {
+    padding: 20px;
+}
+
+.produk-item {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    text-align: center;
+}
+
+.produk-item img {
+    width: 100%;
+    height: auto;
+}
+
+.produk-item h2, .produk-item p {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
